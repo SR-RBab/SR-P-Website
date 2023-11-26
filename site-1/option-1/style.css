@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.header-main {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.header-nav {
+  background-color: #333;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav_item-1, .nav_item-2, .nav_item-3 {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+
+.nav_item-1, .nav_item-2:hover, .nav_item-3:hover {
+  color: rgb(19, 139, 209);
+}
+
+.site-1_sidebar {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  float: left;
+}
+
+.site-1_sidebar a {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-left 0.3s;
+  border-left: 3px solid transparent;
+}
+
+.site-1_sidebar a:hover {
+  background-color: #eee;
+  color: #007bff;
+  border-left-color: #007bff;
+  cursor: pointer;
+}
+
+.site-1_sidebar a.site-1_sidebar_option-1 {
+  background-color: #eee; /* Set the background color to the desired color */
+  color: #007bff; /* Set the text color to the desired color */
+  border-left-color: #007bff; /* Set the border color to the desired color */
+}
+
+.site-1_option-1_value {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  position: relative;
+  float: left;
+}
